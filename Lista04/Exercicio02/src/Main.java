@@ -7,11 +7,11 @@ public class Main {
 
             if (i%2 == 0){
               array[i] =  array[i] + 2;
-                System.out.print("\npos"+i+" array "+array[i]+"!");
+                System.out.print("\npos"+i+" array =  "+array[i]+"!");
 
             }else {
                 array[i] = array[i] * 2;
-                System.out.println("     pos"+i+" array "+array[i]+"!");
+                System.out.println("     pos"+i+" array =  "+array[i]+"!");
             }
         }
     }
