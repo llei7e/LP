@@ -5,14 +5,13 @@ public class Main {
         int [] array2 = new int [10];
 
         for (int i = 0; i< array1.length;i++){
-            for (int j = array2.length-1; j>0;j--){
-                array2[j] = array1[i];
-
-            }
+            array2[array1.length-1-i]=array1[i];
         }
-        for (int v1:array1) System.out.print(v1);
-
-        for (int v2: array2) System.out.print("\n"+v2);
+        System.out.print("v1 = ");
+        for (int v1:array1) System.out.print(v1+", ");
+        System.out.println();
+        System.out.print("v2 = ");
+        for (int v2:array2) System.out.print(v2+", ");
 
     }
 }
