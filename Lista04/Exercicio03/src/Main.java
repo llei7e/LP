@@ -9,19 +9,15 @@ public class Main {
         System.out.println("\nInsira um numero:");
         received = in.nextInt();
 
-        while (!stop) {
-
-            for (int i = 0; i < array.length; i++) {
-                if (received == array[i]) {
-                    System.out.println(received + ". Está presente no array!!" + " Posição: "+i);
-                    stop = true;
-                }
+        for (int i = 0; i < array.length; i++) {
+            if (received == array[i]) {
+                System.out.println(received + ". Está presente no array!!" + " Posição: " + i);
+                stop = true;
+                break;
             }
-           if(!stop){
-               System.out.println(received + ". Não está presente no array!!");
-               break;
-           }
-
+        }
+        if (!stop) {
+            System.out.println(received + ". Não está presente no array!!");
         }
     }
 }
@@ -48,5 +44,4 @@ public class Main {
                 System.out.println("VALOR NÃO ENCONTRADO!");
     }
 }
-
 */

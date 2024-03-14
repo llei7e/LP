@@ -20,7 +20,7 @@ public class Main {
                 posMaior = i;
             }
         }
-        System.out.println("O maior numero = "+maior+"   Posição = "+posMaior);
-        System.out.println("O maior numero = "+menor+"    Posição = "+posMenor);
+        System.out.println("O Maior numero = "+maior+"   Posição = "+posMaior);
+        System.out.println("O Menor numero = "+menor+"    Posição = "+posMenor);
     }
 }

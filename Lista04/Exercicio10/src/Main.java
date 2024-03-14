@@ -7,13 +7,8 @@ public class Main {
                      {10, 11}};
         int[][] pro = new int[2][3];
 
-
         for (int i = 0; i < a[i].length; i++) {
             for (int j = 0; j < a.length; j++) {
-                if (j==2)
-
-
-
 
             }
         }

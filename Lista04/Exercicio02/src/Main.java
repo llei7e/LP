@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -9,7 +11,7 @@ public class Main {
               array[i] =  array[i] + 2;
                 System.out.print("\npos"+i+" array =  "+array[i]+"!");
 
-            }else {
+            }else{
                 array[i] = array[i] * 2;
                 System.out.println("     pos"+i+" array =  "+array[i]+"!");
             }
