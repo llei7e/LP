@@ -9,8 +9,6 @@ public class Main {
                      {10, 11}};
         int[][] pro = new int[3][2];
 
-
-
         for (int z = 0; z < b[0].length; z++) {
             for (int i = 0; i < a[0].length; i++) {
                 for (int j = 0; j < a.length; j++) {
