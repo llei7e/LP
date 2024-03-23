@@ -3,7 +3,6 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-
         Scanner in = new Scanner(System.in);
 
         // Determinando tamanho das Matrizes
@@ -33,13 +32,7 @@ public class Main {
         for (int z = 0; z < m2[0].length; z++) {
             for (int i = 0; i < m1[0].length; i++) {
                 for (int j = 0; j < m1.length; j++) {
-                    if (i == 0) {
-                        pro[j][z] = m1[j][i] * m2[i][z];
-                    } else if (i == 1) {
                         pro[j][z] = pro[j][z] + (m1[j][i] * m2[i][z]);
-                    } else if (i == 2) {
-                        pro[j][z] = pro[j][z] + (m1[j][i] * m2[i][z]);
-                    }
                 }
             }
         }
