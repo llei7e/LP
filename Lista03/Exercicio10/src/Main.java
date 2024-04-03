@@ -14,6 +14,7 @@ public class Main {
         for (int i = 0; i < n-1; i++) {
             System.out.println(n1);
             n1 = n1 + n2;
+
             n2 = n1 - n2;
         }
     }

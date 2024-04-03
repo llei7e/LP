@@ -18,7 +18,7 @@ public class Main {
             segue = true;
         }else if(!segue)  {
             int multi = base;
-            for (int i = 1; i < expo; i++) {
+            for (int i = 1;  i < expo; i++) {
                 base = base * multi;
             }
         }
