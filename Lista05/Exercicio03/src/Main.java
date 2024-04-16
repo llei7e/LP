@@ -11,7 +11,6 @@ public class Main {
         num2 = in.nextInt();
         System.out.println("A potencia de "+num1+"^"+num2+" = " + potencia(num1, num2));
     }
-
     static int potencia(int base, int expo) {
         boolean segue = false;
         if (base == 0 && !segue) {
