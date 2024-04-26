@@ -4,7 +4,6 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
         int[] array = {13, 15, 24, 30, 33, 40, 42, 52, 69, 71, 78, 88};
-
         int valor = 16;
 
         System.out.println(binaria(array, valor));
