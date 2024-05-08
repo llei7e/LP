@@ -62,7 +62,7 @@ public class Arquivo {
 
         System.out.println("\nDigite o conteudo a ser adicionado:");
         in.nextLine();
-        arquivo.setConteudo((arquivo.getConteudo() +" "+ in.nextLine()).trim());
+        arquivo.setConteudo((arquivo.getConteudo() +"\n"+ in.nextLine()).trim());
         tamanhoArq(arquivo);
         System.out.println("Arquivo após alterações:");
         System.out.println(arquivo);
